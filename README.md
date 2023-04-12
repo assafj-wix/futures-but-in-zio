@@ -12,17 +12,17 @@ Michael's _Scala Futures_ is a great exercise to learn about Scala's `Future`, s
 > Sequential composition with or without error accumulation;
 > Concurrent composition with or without error accumulation;
 > See the details below.
-
-## Exercises
-***
-### Kata1 "Fallback"
-This is an exercise on the sequential Futures composition without error accumulation. This exercise uses composition of both sync and async operations.
-
-### Kata2 "Retry"
-This is an exercise on the sequential Futures composition with error accumulation. This exercise uses a recursion although a non-recursive solution would be better.
-
-### Kata3 "Traverse"
-This is an exercise on the concurrent Futures composition without error accumulation. This is just a straightforward use of Future.traverse.
-
-### Kata4 and Kata5 "Traverse with errors accumulation"
-These are exercises on the concurrent Futures composition with error accumulation.
+> 
+> ## Exercises
+> ***
+> ### Kata1 "Fallback"
+> This is an exercise on the sequential Futures composition without error accumulation. This exercise uses composition of both sync and async operations.
+> 
+> ### Kata2 "Retry"
+> This is an exercise on the sequential Futures composition with error accumulation. This exercise uses a recursion although a non-recursive solution would be better.
+> 
+> ### Kata3 "Traverse"
+> This is an exercise on the concurrent Futures composition without error accumul1ation. This is just a straightforward use of `Future.traverse`.
+> 
+> ### Kata4 and Kata5 "Traverse with errors accumulation"
+> These are exercises on the concurrent Futures composition with error accumulation.

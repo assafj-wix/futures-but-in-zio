@@ -1,8 +1,8 @@
 package com.wix.katas.zio
 
 import com.wix.katas.zio.Blog.PostNotFound
-import zio.test.Assertion.{equalTo, fails}
-import zio.test.{assertZIO, ZIOSpecDefault}
+import zio.test.Assertion.equalTo
+import zio.test.{ZIOSpecDefault, assertZIO}
 
 import scala.util.{Failure, Success}
 
